@@ -1,0 +1,1357 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    
+
+}
+
+body{
+    background-color: black;
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.slider-one {
+    /* border: 2px solid red; */
+    position: relative;
+
+
+}
+
+
+.slider-one,.slider-two,.slider-three{
+    overflow-y: hidden;
+}
+
+.batman-info{
+
+    /* top: 480px; */
+    
+    margin-top: -396px;
+    width: 55%;
+    height: 24.6rem;
+    /* border: 2px solid red; */
+    padding-left: 90px;
+    padding-right: 24px;
+    position: absolute;
+    background-image: url(./info\ back.png);
+    background-size: cover;
+}
+.batman-info h1{
+    font-size: 4vw;
+    font-weight: bolder;
+    padding-bottom: 56px;
+    color: #ffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.batman-info p{
+    color: #ffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 50px;
+}
+ 
+  .batman-info a{
+    display: inline-block;
+    background-color: yellow;
+    color: black;
+    text-decoration: none;
+    width: 30%;
+    height: 10%;
+    padding-block:9.5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    border-radius: 8px;
+
+  }
+
+  .add{
+    margin-left: 40px;
+    
+  }
+
+
+
+.slider-two {
+    /* border: 2px solid red; */
+    position: relative;
+
+}
+
+.doctor-info{
+    padding-left: 90px;
+    padding-right: 24px;
+    width: 55%;
+    /* border: 2px solid red; */
+    position: absolute;
+    margin-top: -396px;
+    height: 24.6rem;
+    background-image: url(./info\ back.png);
+    background-size: cover;
+}
+
+.doctor-info h1{
+    font-size: 4vw;
+    padding-bottom: 56px;
+    color: #ffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.doctor-info p{
+    color: #ffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 50px;
+}
+
+.doctor-info a{
+    display: inline-block;
+    background-color: yellow;
+    color: black;
+    text-decoration: none;
+    width: 30%;
+    height: 10%;
+    padding-block:9.5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    border-radius: 8px;
+
+}
+.slider-three{
+ position: relative;
+}
+
+.spider-info{
+    padding-left: 90px;
+    padding-right: 24px;
+    width: 55%;
+    /* border: 2px solid red; */
+    position: absolute;
+    margin-top: -396px;
+    height: 24.6rem;
+    background-image: url(./info\ back.png);
+    background-size: cover;
+}
+
+
+.spider-info h1{
+    font-size: 4vw;
+    padding-bottom: 56px;
+    color: #ffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.spider-info p{
+    color: #ffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 50px;
+}
+
+.spider-info a{
+    display: inline-block;
+    background-color: yellow;
+    color: black;
+    text-decoration: none;
+    width: 30%;
+    height: 10%;
+    padding-block:9.5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.auto-scroll {
+    position: relative;
+    overflow: hidden;
+    width: 300%;
+    display: flex;
+    left: 0%;
+    animation: 20s slider infinite;
+}
+
+.change-effect{
+    width: 25%;
+    height: fit-content;
+    /* border: 2px solid red; */
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    margin-top:60vw ;
+    left: 50%;
+    transform: translate(-50%,-50%);
+     
+}
+
+
+.change-effect div{
+    width: 20%;
+    height: 12px;
+    border: 2px solid white;
+}
+
+.change-one{
+    background:none;
+   
+    
+}
+
+@keyframes slider  {
+    0% {
+        left: 0;
+    }
+
+    20% {
+        left: 0;
+        
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    70% {
+        left: -200%;
+    }
+
+    
+}
+
+
+
+
+.logo {
+    /* border: 2px solid blue; */
+    /* width: 20%; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:2rem;
+    margin-left:2rem;
+    color: yellow;
+
+}
+
+span{
+    color: white;
+}
+
+/* nav style */
+nav {
+    width: 100%;
+    
+    /* border: 2px solid green; */
+    height: 199px;
+    background: url(./nav\ bar\ background.png);
+    position: absolute;
+    z-index: 1;
+
+    
+
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    margin-top: 80px;
+
+}
+
+
+ul {
+    margin-right: 2px;
+    /* border: 2px solid red; */
+    margin: 6px;
+
+}
+
+ul li {
+    display: inline-block;
+    margin-inline: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+}
+
+ul li a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+.sign-btn{
+    /* border: 2px solid red; */
+    width: 5rem;
+    height: 1.5rem;
+    padding-block: 1px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+.sign-btn a{
+    color: black;
+}
+
+.log-btn a{
+    color: black;
+
+    
+
+    
+}
+
+.log-btn{
+    /* border: 2px solid red; */
+    width: 5rem;
+    padding-block: 1px;
+    height: 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+
+.search-con {
+    /* width: 20%; */
+    display: flex;
+   background-color: rgba(10, 10, 10, 0.753);
+    /* border: 2px solid red; */
+    border-radius: 8px;
+    
+
+
+
+}
+
+.search-con img {
+    margin-left: 50px;
+    cursor: pointer;
+    /* border: 2px solid red; */
+}
+
+input {
+border: none;
+border-style: none;
+outline: none;
+background-color:transparent;
+color: #ffff;
+/* border: 2px solid white; */
+margin-left: 8px;
+}
+
+.search-container{
+    margin-right: -2.2rem;
+    margin-top: 9px;
+}
+
+
+.trending{
+    /* border: 2px solid red; */
+    margin-top: 5rem;
+    padding-inline: 5.5rem;
+    width: 100%;
+
+    
+       
+}
+
+.trend-header{
+    display: flex;
+    justify-content: space-between;
+
+}
+.trend-header h1{
+    /* width: max-content; */
+/* border: 2px solid red; */
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin-right: 4px;
+color: white;
+font-size:1.8vw;
+font-weight: 100;
+
+}
+
+.cat{
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 2vw;
+    margin-left: 0px;
+}
+
+.cat div{
+    /* border: 2px solid red; */
+    width: 6.9vw;
+    margin-left: 1rem;
+    border-radius:20px;
+
+
+}
+
+.trend-adventure , .trend-fantasy, .trend-crime, .trend-horror, .trend-sci-fi, .trend-romance{
+    background-color: #808080; 
+}
+
+.cat p{
+    text-align: center;
+    margin-top: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size:1.2vw ;
+}
+
+.trend-action{
+    background-color: yellow;
+}
+.trend-action P{
+    color:black;
+}
+
+.second{
+    width: fit-content;
+    /* border: 2px solid red; */
+    margin-top: 76px;
+    position: relative;
+
+}
+
+
+
+
+
+.trending-movies{
+    position: relative;
+    width: 258%;
+    display: flex;
+    gap: 1.5rem;
+    /* border: 2px solid red; */
+    left: 1%;
+    transition: 2s;
+    
+}
+
+ .m-one ,.m-two,.m-three,.m-four,.m-five,.m-six,.m-seven,.m-eight,.m-nine,.m-ten,.m-eleven,.m-twelve,.m-thirteen{
+    position:relative;
+    cursor: pointer;
+    
+    
+}
+
+
+
+.m-one:hover .play,.m-two:hover .play,.m-three:hover .play,.m-four:hover .play,.m-five:hover .play,.m-six:hover .play,
+.m-seven:hover .play,.m-eight:hover .play,.m-nine:hover .play,.m-ten:hover .play,.m-eleven:hover .play,.m-twelve:hover .play,.m-thirteen:hover .play{
+    display: block;
+    
+    
+     
+}
+
+.play{
+    /* top: 50%; */
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50% , -50%); 
+    display: none;
+    
+}
+
+
+.trending-movies p{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+
+}
+
+.right-btn{
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 94%;
+    cursor: pointer
+    
+  
+}
+
+.left-btn{
+   position: absolute;
+   top: 50%;
+   display: none;
+   cursor: pointer;
+}
+
+.Third{
+    width: fit-content;
+    /* border: 2px solid red; */
+    margin-top: 76px;
+    position: relative;
+    
+}
+
+
+.movies{
+    position: relative;
+    width: 258%;
+    display: flex;
+    overflow-x: hidden;
+    gap: 1.5rem;
+    /* border: 2px solid red; */
+    left: 1%;
+    transition: 2s;
+}
+
+.right-btnm{
+
+    position: absolute;
+    top: 50%;
+    left: 94%;
+    cursor: pointer
+   
+}
+
+.left-btnm{
+   position: absolute;
+   top: 50%;
+   cursor: pointer;
+   display: none;
+}
+
+
+
+.movies p{
+    color: white;
+    font-family: Impact;
+ 
+}
+
+.forth{
+
+    width: fit-content;
+    /* border: 2px solid red; */
+    margin-top: 76px;
+    position: relative;
+}
+
+.series{
+
+    position: relative;
+    width: 258%;
+    display: flex;
+    overflow-x: hidden;
+    gap: 1.5rem;
+    /* border: 2px solid red; */
+    left: 1%;
+    transition: 2s;
+}
+.series p{
+    color: white;
+    font-family: Impact;
+
+}
+
+.right-series{
+    position: absolute;
+    top: 50%;
+    left: 94%;
+    cursor: pointer
+}
+
+.left-series{
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    display: none;
+ }
+ 
+ .fifth{
+    position: relative; 
+    width:fit-content;
+    /* border: 2px solid red; */
+    margin-top: 76px;
+   
+ }
+
+ .Anime{
+    position: relative;
+    width: 258%;
+    display: flex;
+    overflow-x: hidden;
+    gap: 1.5rem;
+    /* border: 2px solid red; */
+    left: 1%;
+    transition: 2s;
+    
+}
+
+.right-anime{
+    position: absolute;
+    top: 50%;
+    left: 94%;
+    cursor: pointer 
+}
+
+
+.left-anime{
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    display: none;
+}
+
+.Anime p{
+    color: white;
+    font-family: Impact;
+ 
+}
+
+
+.coming-con  h1{
+ color: white;
+font-family: Impact;
+font-size: 1.5rem;
+font-weight: 100;
+margin-left: 4px;
+/* border: 2px solid red; */
+width: fit-content;
+ 
+}
+
+
+
+
+.coming p{
+    color: white;
+    font-family: Impact;
+    font-size: 1.3rem; 
+    margin-top: 3px;
+}
+
+.coming-con{
+    width: fit-content;
+    /* position: relative; */
+    /* border: 2px solid red; */
+    margin-top: 76px;
+    
+}
+
+.coming{
+    position: relative;
+    /* border: 2px solid red; */
+    display: flex;
+    overflow-x: hidden;
+    gap: 1.5rem;
+    width: 300%;
+    margin-top: 76px;
+    left: 0%;
+    animation: 15s slide infinite;
+}
+
+
+.trending-movies p,.series p,.movies p,.Anime p{
+    width: fit-content;
+    font-size: 0.99rem;
+    /* font-size:14px; */
+
+}
+
+.bleach, .wakanda, .lost , .never ,.sandman{
+    position: relative;
+    cursor: pointer;
+
+}
+
+ .cplay{
+    
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50% , -50%); 
+    /* display: none;  */
+}
+
+@keyframes slide  {
+    0% {
+        left: 0;
+    }
+
+    20% {
+        left: 0;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    70% {
+        left: -200%;
+    }
+}
+
+
+.menu-btn{
+    display: none;
+}
+
+.moblie-menu{
+    display: none;
+} 
+
+
+.trend{
+    display: none;
+}
+
+.belong-menu{
+    width: 25%;
+    /* height: 50%; */
+    top: 5.9rem;
+    left: 23%;
+    position: absolute;
+    z-index: 1;
+    /* border: 2px solid red; */
+    /* overflow-y: hidden; */
+    
+}
+
+/* .belong-menu::-webkit-scrollbar{
+    display: none;
+} */
+
+
+.filter{
+    /* place-items: center; */
+    /* top: 50%;
+    left: 50%; */
+    /* transform:translate(-50%,-50%); */
+   border-radius: 10px;
+   width: 100%;
+   height: 90%;
+    /* position: absolute;   */
+   z-index: 1;
+   /* border: 2px solid white; */
+   background-color:  rgba(10, 10, 10, 0.753); 
+
+}
+
+.fi{
+    margin-top: 3px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.fill{
+   /* border: 2px solid white; */
+   width:100%;
+   height: 9%;
+   margin-top: 3px;
+   /* margin-inline: auto; */
+}
+
+.filter main{
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    display: flex;
+}
+
+.sm{
+    margin-left: 92%;
+    display: none;
+}
+
+.s-movies img{
+    width: 60px;
+    
+       
+}
+
+.s-movies{
+    display: none;
+    height: 300px;
+    /* border: 2px solid red; */
+    padding: 20px 5px;
+    overflow-y: auto;
+    
+ 
+}
+
+.s-movies::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+.products{
+    display: flex;
+    /* border: 2px solid white; */
+}
+
+
+.s-movies h3{
+font-size: 12px;
+color: #ffff;
+margin-left: 20px;
+margin-top: 50%;
+/* font-family: 'Lucida Sans', 'Lucida Sans Regular', ; */
+font-family: impact;
+font-weight: 50;
+
+}
+
+.deadman{
+    /* position: absolute; */
+    /* border: 2px solid white; */
+    margin-top: 12rem;
+    padding-inline: 30px;
+    display: flex;
+    gap: 13rem;
+}
+
+   
+.dvideo{
+    /* border: 2px solid red; */
+    
+    width: 65%;
+    /* width: fit-content; */
+    /* background: #ffff; */
+    display: flex;
+    flex-direction: column;
+}
+
+.down{
+    display: block;
+    border: none;
+    font-size: 18px;
+    margin-top: 49px;
+    border-radius: 20px;
+    height: 49px;
+    margin-inline:auto ;
+    margin-right:auto;
+    margin-left: auto;
+    width: 275px;
+    font-family: impact;
+}
+
+.episodes{
+    margin-top: 35px;
+}
+
+.ep{
+    margin-bottom: 24px;
+    color: #ffff;
+    font-family: impact;
+    
+}
+
+
+  .but-two,.but-three,.but-four,.but-five,.but-six,.but-seven,.but-eight,.but-nine{
+    background-color: yellow;
+    width: 40px;
+    height: 40px;
+    font-family: impact;
+    margin-left: 24px;
+}
+
+.but-one{
+    background-color: lightyellow;
+    width: 40px;
+    height: 40px;
+    font-family: impact;
+}
+.info{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+.info img{
+    width: 28rem;
+}
+
+.info p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    margin-bottom: 24px;
+}
+
+
+.info h2{
+    font-family: impact;
+    font-weight: 100;
+    margin-bottom: 24px;
+}
+
+.info h3{
+    font-family: impact;
+    font-style: 10px;
+    font-weight: 100;
+}
+
+.info h2,p,h3{
+color: white;
+/* font-family: impact; */
+
+}
+.video-con{
+    border: 2px solid white;
+    /* position:absolute; */
+}
+
+.d-con{
+    position: relative;
+}
+
+.deadman-vid,.deadman-vidtwo,.deadman-vidthree,.deadman-vidfour{
+    display: none;
+    /* border: 2px solid red; */
+    /* position:relative; */
+    background-repeat:no-repeat;
+   
+}
+
+
+.video-btn,.video-btntwo,.video-btnthree,.video-btnfour{
+    cursor: pointer;
+    /* border: 2px solid red; */
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+
+.ace{
+    display: flex;
+    gap: 2rem;
+    margin-top: 24px;
+}
+
+.aceh{
+    display: flex;
+    gap: 2rem;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+
+.related{
+    /* border: 2px solid red; */
+}
+
+.related h2{
+    font-weight: 100;
+    color: yellow;
+    font-family: impact;
+    
+}
+
+.related p{
+    margin-top: auto;
+    margin-bottom: auto;
+    
+    
+}
+
+.related p{
+ color: #ffff;
+ font-family: impact;
+ /* font-size: ; */
+}
+
+.related img{
+    width: 5rem;
+}
+
+.video-img,.video-imgtwo,.video-imgthree,.video-imgfour{
+    width: 100%;
+    /* position: relative; */
+}
+
+
+
+.depisode-two,.depisode-three,.depisode-four{
+    display: none;
+}
+
+
+@media(max-width:1098px){
+
+
+
+.cat p{
+    margin-top: 5px;
+}
+
+.belong-menu{
+    top: 1.7rem;
+    z-index:0.9;
+    width:100%;
+    left:0rem ;
+    background: transparent;
+}
+
+.change-effect{
+z-index: -1;
+}
+
+
+.sm{
+    margin-bottom: 20px;
+    margin-left:80%;
+    display: block;
+    margin-right: 20%;
+}
+
+
+
+.batman-info,.doctor-info,.spider-info {
+    padding-inline: 5vw;
+    /* padding-bottom:20px ; */
+    width: 100%;
+    top: 90%;
+    height: 33.5vw;
+    /* position: absolute; */
+   margin-top:-24vw;
+}
+a.watch, a.add{
+ font-size: 12px;
+ height: 28px;
+ padding:6px;
+}
+
+a.add{
+    margin-left: 10px;
+}
+
+
+.batman-info h1,.doctor-info h1,.spider-info h1{
+    padding-bottom: 1.5vw;
+}
+
+.batman-info p{
+  font-size:9px ;
+  padding-bottom: 2.5vw;
+  
+
+}   
+
+.doctor-info p{
+    font-size:9px;
+    padding-bottom: 1.8vw;   
+}
+
+.spider-info p{
+    font-size:9px ;
+    padding-bottom:2vw;   
+}
+
+.nav-bar{
+    margin-top: 23px;
+    }
+
+nav{
+    height: 70px;
+}
+
+.logo{
+    font-size:1.2rem; 
+    margin-left: 2vw;
+ }
+
+.menu-btn{
+    top:0;
+    display: block;
+    position: absolute;
+    left:91%;
+    
+    /* margin-right: 32px; */
+}
+
+.filter{
+
+    display: none;
+}
+
+/* .belong-menu{
+
+    position: absolute;
+    z-index: 1;
+    border: 2px solid red;
+} */
+
+
+
+.search-container{
+    display: none;
+    /* border: 2px solid red; */
+  
+}
+
+
+
+
+ul{
+    display: none;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    /* position:relative; */
+    
+    /* top: 100px; */
+    /* display: block; */
+}
+
+.moblie-menu{
+    top: -2px;
+    left: 100%;
+    position:fixed;
+    background:black;
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    width:50%;
+    align-items: center;
+    transition: 0.5s;
+    /* display: none; */
+}
+
+.close{
+   position: absolute;
+   top: 3%;
+   right: 80%;
+}
+
+
+
+
+.moblie-menu a{
+font-size: 12px;
+
+}
+
+.moblie-menu li {
+   margin-block: 20px;
+}
+
+.trending h1{
+    display: none;
+}
+
+.trending p{
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+div .trend-fantasy,div.trend-adventure,div.trend-crime,div.trend-horror,div.trend-sci-fi,div.trend-romance,div .trend-action{
+    
+    margin-left: 0px;
+}
+
+div .trend-fantasy,div.trend-adventure,div.trend-crime,div.trend-horror,div.trend-sci-fi,div.trend-romance{
+    margin-left: 3vw;
+}
+
+.move{
+    overflow-x: auto;
+    /* border: 2px solid white; */
+    /* width: fit-content; */
+}
+.trending{
+    margin: 0;
+    padding-left: 0;
+    margin-right: 0;
+    /* margin-top: 40px; */
+    width:fit-content;
+    scroll-behavior: smooth;
+    overflow-x: auto;
+
+}
+.trend{
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-block: 20px;
+    display: block;
+    margin-left: 5px;
+}
+
+.work{
+ overflow-x: auto;
+}
+
+.work::-webkit-scrollbar{
+    display: none;
+}
+
+.move::-webkit-scrollbar{
+    display: none;
+}
+
+.trending .cat div{
+    width:100px;
+    height: 30px;
+    
+}
+
+.trending-movies,.movies,.series,.Anime{
+   /* overflow-x: scroll; 
+    
+    /* width: 285%;  */
+    padding-right:1.5rem;
+    
+}
+
+.second,.Third,.forth,.fifth{
+    /* display:flex; */
+    scroll-behavior: smooth;
+    overflow-x: auto;
+    margin-top: 40px;
+    max-width: fit-content;
+    
+    
+}
+
+
+.second::-webkit-scrollbar,.Third::-webkit-scrollbar,.forth::-webkit-scrollbar,.fifth::-webkit-scrollbar{
+    display: none;
+    scroll-behavior: smooth;
+}
+
+/* .fifth img{
+    width: fit-content;
+} */
+
+
+/* .fitth .m-one ,.fifth .m-two,.fifth .m-three,.fifth .m-four,.fifth .m-five,
+.fifth .m-six,.fifth .m-seven,.fifth .m-eight,.fifth .m-nine,.fifth .m-ten,
+.fifth .m-eleven,.fifth .m-twelve,.fifth.m-thirteen{
+    max-width:80%;
+    height: 30%;
+    border: 2px solid red;
+} 
+ */
+
+.right-btn,.left-btn,.right-btnm,.left-btnm,.right-series,.left-series,.right-anime,.left-anime{
+    display: none;
+}
+
+.m-one:hover .play,.m-two:hover .play,.m-three:hover .play,.m-four:hover .play,.m-five:hover .play,.m-six:hover .play,
+.m-seven:hover .play,.m-eight:hover .play,.m-nine:hover .play,.m-ten:hover .play,.m-eleven:hover .play,.m-twelve:hover .play,.m-thirteen:hover .play{
+    display: none;
+   
+     
+}
+
+.coming-con{
+    position: absolute;
+    width:100%;
+    margin-top: 20px;
+    /* overflow-x:auto;  */
+}
+
+.coming-con p{
+    font-size: 16px;
+}
+
+.coming{
+    margin-top: 20px;
+}
+
+
+.cplay{
+
+    display: none;
+}
+
+.bleach ,.sandman,.wakanda,.never,.lost{
+  width:500px;
+}
+.deadman{
+    top: -5rem;
+    position: relative;
+    flex-direction: column;
+    gap:3rem;
+    padding-inline: 0.6rem;
+}
+
+.dvideo{
+    width: 100%;
+}
+
+
+.down{
+    width: 69%;
+}
+.info p{
+    font-size: 2.9vmin;
+}
+
+.info h2{
+    font-size: 4.7vmin;
+}
+
+.info h3{
+    font-size: 3vmin;
+}
+
+.episodes{
+    /* display: flex; */
+   flex-wrap: wrap;
+} 
+
+.but-one{
+    border: none;
+    margin-bottom: 5px;
+}
+.but-two,.but-three,.but-four,.but-five,.but-six,.but-seven,.but-eight,.but-nine{
+margin-left: 0.2vw;
+border: none;
+margin-bottom: 5px;
+}
+
+}
+
+
+
+@media(max-width:437px){
+   
+  .change-effect{
+    margin-top: 356px;
+  }
+  .change-effect div{
+    height: 6px;
+  }
+
+    .auto-scroll img{
+        height: 350px;
+        /* width: 428px; */
+    }
+}
