@@ -40,6 +40,16 @@ const epfourBtn=document.querySelector('.video-btnfour')
 const videoImgfour=document.querySelector('.video-imgfour')
 const deadVideofour=document.querySelector('.deadman-vidfour')
 const butFour=document.querySelector('.but-four')
+const depisodeFive=document.querySelector('.depisode-five')
+const epfiveBtn=document.querySelector('.video-btnfive')
+const videoImgfive=document.querySelector('.video-imgfive')
+const deadVideofive=document.querySelector('.deadman-vidfive')
+const butFive=document.querySelector('.but-five')
+const depisodeSix=document.querySelector('.depisode-six')
+const epsixBtn=document.querySelector('.video-btnsix')
+const videoImgsix=document.querySelector('.video-imgsix')
+const deadVideosix=document.querySelector('.deadman-vidsix')
+const butSix=document.querySelector('.but-six')
 
 
 
@@ -54,12 +64,19 @@ function episodeone(){
   depisodeTwo.style.display='none'
   depisodeThree.style.display='none'
   depisodeFour.style.display='none'
+  depisodeFive.style.display='none'
+  depisodeSix.style.display='none'
   deadVideotwo.pause()
   deadVideothree.pause()
+  deadVideofour.pause()
+  deadVideofive.pause()
+  deadVideosix.pause()
   
   butTwo.style.background="yellow"
   butThree.style.background="yellow"
   butFour.style.background='yellow'
+  butFive.style.background='yellow'
+  butSix.style.background='yellow'
   }
 }
 
@@ -75,12 +92,18 @@ function episodetwo(){
        depisodeOne.style.display='none'
        depisodeThree.style.display='none'
        depisodeFour.style.display='none'
+       depisodeFive.style.display='none'
+       depisodeSix.style.display='none'
        deadVideo.pause()
        deadVideothree.pause()
+       deadVideofour.pause()
+       deadVideosix.pause()
        butOne.style.background="lightyellow"
        butTwo.style.background="lightyellow"
        butThree.style.background="yellow"
        butFour.style.background="yellow"
+       butFive.style.background="yellow"
+       butSix.style.background="yellow"
       }
   }
 
@@ -92,13 +115,19 @@ function episodethree(){
            depisodeTwo.style.display='none'  
            depisodeOne.style.display='none'
            depisodeFour.style.display='none'
+           depisodeFive.style.display='none'
+           depisodeSix.style.display='none'
            deadVideo.pause()
            deadVideotwo.pause()
            deadVideofour.pause()
+           deadVideofive.pause()
+           deadVideosix.pause()
            butOne.style.background="lightyellow"
            butTwo.style.background="lightyellow"
            butFour.style.background="yellow"
+           butFive.style.background="yellow"
            butThree.style.background='lightyellow'
+           butSix.style.background='yellow'
   }
 }
 
@@ -109,18 +138,65 @@ function episodefour(){
            depisodeThree.style.display='none'
            depisodeTwo.style.display='none'  
            depisodeOne.style.display='none'
+           depisodeFive.style.display='none'
            deadVideo.pause()
            deadVideotwo.pause()
            deadVideothree.pause()
+           deadVideofive.pause()
+           deadVideosix.pause()
            butOne.style.background="lightyellow"
            butTwo.style.background="lightyellow"
            butThree.style.background='lightyellow'
            butFour.style.background='lightyellow'
+           butFive.style.background='yellow'
+           butSix.style.background='yellow'
+  }
+}
+function episodefive(){
+  if ( depisodeFive.style.display==='block') {
+    
+  } else { depisodeFive.style.display='block'
+           depisodeThree.style.display='none'
+           depisodeTwo.style.display='none'  
+           depisodeOne.style.display='none'
+           depisodeFour.style.display='none'
+           depisodeSix.style.display='none'
+           deadVideo.pause()
+           deadVideotwo.pause()
+           deadVideothree.pause()
+           deadVideofour.pause()
+           deadVideosix.pause()
+           butOne.style.background="lightyellow"
+           butTwo.style.background="lightyellow"
+           butThree.style.background='lightyellow'
+           butFour.style.background='lightyellow'
+           butFive.style.background='lightyellow'                                       
+           butSix.style.background='yellow'                                       
   }
 }
 
-
-
+function episodesix(){
+  if ( depisodeSix.style.display==='block') {
+    
+  } else { depisodeSix.style.display='block'
+           depisodeThree.style.display='none'
+           depisodeTwo.style.display='none'  
+           depisodeOne.style.display='none'
+           depisodeFour.style.display='none'
+           depisodeFive.style.display='none'
+           deadVideo.pause()
+           deadVideotwo.pause()
+           deadVideothree.pause()
+           deadVideofour.pause()
+           deadVideofive.pause()
+           butOne.style.background="lightyellow"
+           butTwo.style.background="lightyellow"
+           butThree.style.background='lightyellow'
+           butFour.style.background='lightyellow'
+           butFive.style.background='lightyellow'                                       
+           butSix.style.background='lightyellow'                                       
+  }
+}
 
 function playpause(){
   if (deadBtn.style.display==='none') {
@@ -178,6 +254,30 @@ function playpausefour(){
   }
 }
 
+function playpausefive(){
+  if (epfiveBtn.style.display==='none') {
+    
+  } else {epfiveBtn.style.display='none'
+  deadVideofive.style.display="block";
+  videoImgfive.style.display="none";
+  epfiveBtn.style.display='none';
+ 
+   deadVideofive.play()
+  }
+}
+
+
+function playpausesix(){
+  if (epsixBtn.style.display==='none') {
+    
+  } else {epsixBtn.style.display='none'
+  deadVideosix.style.display="block";
+  videoImgsix.style.display="none";
+  epsixBtn.style.display='none';
+ 
+   deadVideosix.play()
+  }
+}
 
 const search=()=>{
 const searchBox =document.getElementById("search-item").value.toUpperCase ();
